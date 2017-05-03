@@ -44,7 +44,7 @@ try:
     for p in Pr_list:
         proxy_file.write("{0}\n".format(p))
     proxy_file.close()
-    print("{0} Proxcy chaine was added to the proxy file".format(len(Pr_list)))
+    print("{0} Proxy chaine was added to the proxy file".format(len(Pr_list)))
 except urllib.error.URLError as e:
     print(e)
 except urllib.error.HTTPError as e:
